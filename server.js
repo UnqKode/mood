@@ -18,14 +18,15 @@ function downloadFile(res, id) {
 }
 
 // -------- SEPARATE ENDPOINTS --------
-app.get("/m1", (req, res) => downloadFile(res, "m1"));
-app.get("/m2", (req, res) => downloadFile(res, "m2"));
-app.get("/m3", (req, res) => downloadFile(res, "m3"));
-app.get("/m4", (req, res) => downloadFile(res, "m4"));
-app.get("/m6", (req, res) => downloadFile(res, "m6"));
-app.get("/m7", (req, res) => downloadFile(res, "m7"));
-app.get("/m8", (req, res) => downloadFile(res, "m8"));
-app.get("/m9", (req, res) => downloadFile(res, "m9"));
+app.get("/m1", (req, res) => downloadFile(res, "m11"));
+app.get("/m2", (req, res) => downloadFile(res, "m22"));
+app.get("/m3", (req, res) => downloadFile(res, "m33"));
+app.get("/m4", (req, res) => downloadFile(res, "m44"));
+app.get("/m5", (req, res) => downloadFile(res, "m55"));
+app.get("/m6", (req, res) => downloadFile(res, "m66"));
+app.get("/m7", (req, res) => downloadFile(res, "m77"));
+app.get("/m8", (req, res) => downloadFile(res, "m88"));
+app.get("/m9", (req, res) => downloadFile(res, "m99"));
 
 app.listen(PORT, () => {
   console.log(`Server running on:`);
